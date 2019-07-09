@@ -1,0 +1,37 @@
+.ourwork {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.react-tabs__tab-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    border-bottom: 1px solid #C3C6D2;
+}
+.react-tabs__tab {
+    margin-right: 70px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #0078E8;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    padding: 16px 0;
+    margin-bottom: -1px;
+    &--selected {
+        color: #37373A;
+        border-bottom: 2px solid #0078E8;
+    }
+}
+.completed-projects {
+    min-height: 331px;
+    display: flex;
+    justify-content: space-around;
+    &_card {
+        width: 288px;
+        height: 144px;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+    // background-image: url('static/Vector-left-r.png');
+}

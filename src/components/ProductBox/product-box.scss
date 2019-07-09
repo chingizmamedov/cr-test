@@ -1,0 +1,57 @@
+.product-box {
+  flex-basis: 25%;
+  max-width: 187px;
+  padding: 0 5px;
+  margin: 0 0 12px;
+
+  &__holder {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #fff;
+    padding: 20px 20px 32px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(#d6d6e3, .25);
+    transition: box-shadow .3s;
+    cursor: pointer;
+  }
+
+  &__image-wrap {
+    height: 156px; // TODO: Убрать после появления апи
+    background: #333;
+    margin: 0 0 10px;
+    position: relative;
+  }
+
+  &__sale {
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    background: #cf2f2f;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 12px 0 0 12px;
+    font-weight: 700;
+  }
+
+  &__image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin: 0 0 15px;
+  }
+
+  &__price {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: auto;
+  }
+
+  &__currency {
+    font-size: 14px;
+  }
+}

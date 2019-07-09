@@ -1,0 +1,13 @@
+.product {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  &__card-holder {
+    padding: 45px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 30px rgba(#d6d6e3, .6);
+    background: #fff;
+    border-radius: 8px;
+    margin: 0 0 60px;
+  }
+}

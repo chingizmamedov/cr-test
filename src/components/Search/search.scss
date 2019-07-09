@@ -1,0 +1,9 @@
+.search {
+  display: flex;
+
+  &__icon {
+    align-self: center;
+    width: 19px;
+    height: 19px;
+  }
+}

@@ -1,0 +1,22 @@
+.category-item {
+  $root: &;
+  padding: 13px 20px 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: background .3s;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(#0078e8, .1);
+
+    #{$root}__title {
+      color: #0078e8;
+    }
+  }
+
+  &__title {
+    letter-spacing: .02em;
+    font-size: 16px;
+    transition: color .3s;
+  }
+}

@@ -1,0 +1,16 @@
+.footer-nav-column {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    font-size: 16px;
+    letter-spacing: .04em;
+    font-weight: 700;
+    margin: 0 0 25px;
+  }
+
+  &__item {
+    letter-spacing: .02em;
+    margin: 0 0 14px;
+  }
+}

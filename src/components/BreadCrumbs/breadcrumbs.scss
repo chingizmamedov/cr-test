@@ -1,0 +1,28 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  margin: 0 0 43px;
+
+  &__item {
+    letter-spacing: .02em;
+    color: $blue-color;
+    position: relative;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &_current {
+      color: #a7adc2;
+    }
+  }
+
+  &__icon {
+    position: relative;
+    top: 1px;
+    width: 10px;
+    height: 10px;
+  }
+}

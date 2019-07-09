@@ -1,0 +1,17 @@
+.login {
+  display: flex;
+  cursor: pointer;
+  margin: 0 25px 0 50px;
+
+  &__icon {
+    margin: 0 10px 0 0;
+    width: 20px;
+    height: 16px;
+  }
+  
+  &__name {
+    color: $green-color;
+    font-weight: 700;
+    letter-spacing: .02em;
+  }
+}

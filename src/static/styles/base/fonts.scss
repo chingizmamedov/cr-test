@@ -1,0 +1,5 @@
+@import 'mixins';
+
+@include font-face('lato', 'Lato-Regular','../fonts/', 400, normal);
+@include font-face('lato', 'Lato-Bold','../fonts/', 700, normal);
+@include font-face('raleway', 'Raleway-Bold','../fonts/', 700, normal);

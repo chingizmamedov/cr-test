@@ -1,0 +1,13 @@
+.logo {
+  width: 137px;
+  height: 56px;
+  position: absolute;
+  left: -137px;
+
+  &__image {
+    width: 137px;
+    height: 56px;
+    display: block;
+    max-width: 100%;
+  }
+}

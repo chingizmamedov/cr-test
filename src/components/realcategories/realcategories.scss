@@ -1,0 +1,34 @@
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+.realcategories {
+    &-main {
+        display: flex;
+    }
+    &_side {
+        padding: 0;
+        margin: 0;
+        margin-right: 20px;
+        padding-right: 20px;
+        list-style-type: none;
+        & li {
+            border-radius: 4px;
+            padding: 13px 20px 15px;
+            transition: background .3s;
+            cursor: pointer;
+            &:hover {
+                background: rgba(0, 120, 232, 0.3);
+            }
+        }
+    }
+}
+.realtabContent {
+    display: none;
+    &-show {
+        display: block !important;
+    }
+}
+.reaclcatitem_active {
+    background: rgba(0, 120, 232, 0.5);
+}

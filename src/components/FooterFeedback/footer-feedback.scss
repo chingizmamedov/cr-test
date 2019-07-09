@@ -1,0 +1,28 @@
+.footer-feedback {
+  display: flex;
+
+  &__column {
+    flex-basis: 50%;
+    min-width: 50%;
+  }
+
+  &__phone {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    display: block;
+    font-weight: 700;
+    margin: 0 0 12px;
+  }
+
+  &__order-call {
+    color: $blue-color;
+  }
+
+  &__mail {
+    font-size: 18px;
+    letter-spacing: .02em;
+    display: block;
+    font-weight: 700;
+  }
+}

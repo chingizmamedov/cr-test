@@ -1,0 +1,18 @@
+.footer {
+  padding: 50px 0 0;
+
+  &__line {
+    background: #e0e0e4;
+    height: 1px;
+    margin: 50px 0;
+  }
+
+  &__public-offer {
+    margin: 60px 0 0;
+    padding: 25px 0;
+    color: #9196a2;
+    font-size: 12px;
+    letter-spacing: .02em;
+    background: #c3c6d2;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "styled-jsx": {
+          "plugins": [
+            "styled-jsx-plugin-postcss"
+          ]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "react-css-modules",
+      {
+          "exclude": "node_modules",
+          "generateScopedName": "[local]_[hash:base64:5]"
+      }
+    ]
+  ]
+}

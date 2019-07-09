@@ -1,0 +1,18 @@
+// text color vars
+$text-color: #37373a;
+$green-color: #2dd05d;
+$gray-color: #9aa0ad;
+$blue-color: #00aeff;
+
+// typography vars
+$base-font-size: 14px;
+$lato: 'lato', 'Arial', 'Helvetica', sans-serif;
+$raleway: 'raleway', 'Arial', 'Helvetica', sans-serif;
+
+// media queries vars
+$mq-breakpoints: (
+  mobile: 320px,
+  tablet: 640px,
+  desktop: 1024px,
+  wide: 1400px
+);

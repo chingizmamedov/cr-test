@@ -1,0 +1,15 @@
+.menu-icon {
+  display: flex;
+  width: 22px;
+  flex-direction: column;
+
+  &__line {
+    height: 2px;
+    border-radius: 1px;
+    background: $green-color;
+
+    &:nth-child(2) {
+      margin: 4px 0;
+    }
+  }
+}

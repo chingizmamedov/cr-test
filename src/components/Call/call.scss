@@ -1,0 +1,17 @@
+.call {
+  display: flex;
+  letter-spacing: .02em;
+  margin: 0 10px 0 0;
+
+  &__phone {
+    font-weight: 700;
+  }
+
+  &__order-button {
+    outline: none;
+    border: none;
+    color: $green-color;
+    font-weight: 700;
+    margin: 0 0 0 15px;
+  }
+}

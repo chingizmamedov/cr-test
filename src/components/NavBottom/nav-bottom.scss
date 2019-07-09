@@ -1,0 +1,16 @@
+.nav-bottom {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+
+  &__holder {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  &__right {
+    display: flex;
+    align-items: flex-end;
+  }
+}

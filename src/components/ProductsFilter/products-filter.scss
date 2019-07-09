@@ -1,0 +1,15 @@
+.products-filter {
+  margin: 15px 0 0 20px;
+
+  &__icon {
+    cursor: pointer;
+    width: 20px;
+    height: 18px;
+    fill: #a7adc2;
+    transition: fill .2s;
+
+    &:hover {
+      fill: $blue-color;
+    }
+  }
+}

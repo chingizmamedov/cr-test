@@ -16,7 +16,7 @@
     "next-images": "^1.1.2",
     "next-redux-wrapper": "^3.0.0-alpha.2",
     "next-routes": "^1.4.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "normalize.css": "^8.0.1",
     "postcss-svgo": "^4.0.2",
     "react": "16.8.6",
